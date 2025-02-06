@@ -1,0 +1,564 @@
+{
+    "took" : 7,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 8,
+        "relation" : "eq"
+      },
+      "max_score" : 8.114761,
+      "hits" : [
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488892020043026917835617916306516494792537450061889536",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "674ee45a-f1db-db52-05ad-f3426ebd84b4",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:06:49Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "deploy",
+              "status" : "completed",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "deploy.deployment"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488892020043026917835617916306516494792537450061889536",
+            "@timestamp" : "2024-09-09T17:06:49.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "b7490060-6dff-364b-8873-09debf81ef54"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889009442425116201493645910150192976903777816281088",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "da634183-00e9-9b3b-e555-cc05228674f6",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:34Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "userCreation",
+              "status" : "completed",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "user_setup"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889009442425116201493645910150192976903777816281088",
+            "@timestamp" : "2024-09-09T17:04:34.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "f1757900-9714-3475-8b7d-e7fd77d25733"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889054043915513262739931209767284131458122248814592",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "fc458502-b270-e3ce-dcf3-b3a808c5dbf0",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:36Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "dns",
+              "status" : "initiated",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "config-ui-dev-deployment-dns"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889054043915513262739931209767284131458122248814592",
+            "@timestamp" : "2024-09-09T17:04:36.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "597cc5fc-43f8-3520-9c2c-794f57bd48ee"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889054043915513262739931251682460382998875920596992",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "604c3b08-2140-6705-e53a-6d04ce8396f3",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:36Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "policy",
+              "status" : "completed",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "s3-policy"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889054043915513262739931251682460382998875920596992",
+            "@timestamp" : "2024-09-09T17:04:36.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "49935b6d-13a6-36fe-a67b-18f54b692204"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889054043915513262739931343695280518759101481811968",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "4cb1d080-1bf3-dd50-4686-45e9b80cd55c",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:36Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "userCreation",
+              "status" : "initiated",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "user_setup"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889054043915513262739931343695280518759101481811968",
+            "@timestamp" : "2024-09-09T17:04:36.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "d55837a6-6857-379f-b74d-52f6348fd552"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889120946151108854609358652712372034094470743064576",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "2b7593d1-b2eb-cf06-5bda-8819c292e30b",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:39Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "dns",
+              "status" : "completed",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "config-ui-dev-deployment-dns"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889120946151108854609358652712372034094470743064576",
+            "@timestamp" : "2024-09-09T17:04:39.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "001ed1a6-5537-321f-80d2-46324d990e0f"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889120946151108854609358757035084133443956116357120",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "9205c725-6394-7b8f-8908-e463397bd431",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:39Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "deploy",
+              "status" : "initiated",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "deploy.deployment"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889120946151108854609358757035084133443956116357120",
+            "@timestamp" : "2024-09-09T17:04:39.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "0f553b2b-b702-3b20-9c47-97d5c87c6576"
+          }
+        },
+        {
+          "_index" : "cwl-2024.09",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38488889143246896307385232501622332948668258420715225088",
+          "_score" : 8.114761,
+          "_source" : {
+            "version" : "0",
+            "id" : "c1e67964-d3c5-67cf-6161-3c3fcb772100",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-09-09T17:04:40Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "config-ui",
+                "branch" : "rollback-new-cp-dashboard",
+                "pciEnabled" : false,
+                "service" : "config-ui",
+                "id" : "0.1.00-901-SNAPSHOT-20240909223340",
+                "commitSHA" : "eec854a1e614ba35085b87672f1971b44ee2926e",
+                "timestamp" : "1725901422",
+                "user" : "ayush.gupta_ftc@external.swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "0.1.00-901-SNAPSHOT",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "dxp",
+                "org" : "rng",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1725901423.439419",
+                    "channel" : "deploy-dxp"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "false",
+                "Language" : "NODE",
+                "Protocol" : "http"
+              },
+              "environment" : "env014",
+              "location" : "in-west",
+              "action" : "policy",
+              "status" : "initiated",
+              "deploymentType" : "rollback",
+              "eventDetails" : {
+                "pipelineName" : "config-ui.rollback-new-cp-dashboard.dev.env014",
+                "stageName" : "dev-deployment",
+                "actionName" : "s3-policy"
+              },
+              "deploymentStrategy" : "rolling",
+              "canaryShare" : -1,
+              "failureDetails" : {
+                "external-execution-summary" : "",
+                "external-execution-url" : "",
+                "external-execution-id" : ""
+              }
+            },
+            "@id" : "38488889143246896307385232501622332948668258420715225088",
+            "@timestamp" : "2024-09-09T17:04:40.000Z",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "1b4aa3f4-e275-35f0-9474-76d36256f7cc"
+          }
+        }
+      ]
+    }
+  }
+  

@@ -1,0 +1,720 @@
+{
+    "took" : 14,
+    "timed_out" : false,
+    "_shards" : {
+      "total" : 1,
+      "successful" : 1,
+      "skipped" : 0,
+      "failed" : 0
+    },
+    "hits" : {
+      "total" : {
+        "value" : 10,
+        "relation" : "eq"
+      },
+      "max_score" : 18.57473,
+      "hits" : [
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38703910698376608722665262085993710377742068493150060544",
+          "_score" : 18.57473,
+          "_source" : {
+            "version" : "0",
+            "id" : "a51108d1-eb05-f322-5410-bb065ac62ed2",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-30T07:23:00Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "connect-backend-monorepo",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "connect-merchant-service",
+                "id" : "1.0.00-59598-20241226234527",
+                "commitSHA" : "6d8fc69191963700e2cc77b0871f3a1929000bc2",
+                "timestamp" : "1735236932",
+                "user" : "devata.bhaskar@swiggy.in",
+                "appFile" : "shuttle/merchant-service.yaml",
+                "imageVersion" : "1.0.00-59598",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "connect",
+                "org" : "rng",
+                "computeType" : "container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735236933.024439",
+                    "channel" : "deploy-connect"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123649",
+                "isMultimodule" : "true",
+                "Language" : "UNKNOWN",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "connect-merchant-service.master",
+                "stageName" : "prod-2",
+                "actionName" : "dev.canary.production.stage3",
+                "timeStamp" : 1735543367
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 10,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by devata.bhaskar@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:Changes already went in hotfix relase",
+                "external-execution-url" : "",
+                "external-execution-id" : "f08f0bf1-2348-4a36-bda2-250a2ee8bf1e"
+              }
+            },
+            "@id" : "38703910698376608722665262085993710377742068493150060544",
+            "@timestamp" : "2024-12-30T07:23:00.000Z",
+            "@message" : """{"version":"0","id":"a51108d1-eb05-f322-5410-bb065ac62ed2","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-30T07:23:00Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"connect-backend-monorepo","branch":"master","pciEnabled":false,"service":"connect-merchant-service","id":"1.0.00-59598-20241226234527","commitSHA":"6d8fc69191963700e2cc77b0871f3a1929000bc2","timestamp":"1735236932","user":"devata.bhaskar@swiggy.in","appFile":"shuttle/merchant-service.yaml","imageVersion":"1.0.00-59598","noCode":false,"previousVersion":"","pod":"connect","org":"rng","computeType":"container","notification":{"slack":{"timestamp":"1735236933.024439","channel":"deploy-connect"}},"repoSource":"github","cmrId":"CMR-123649","isMultimodule":"true","Language":"UNKNOWN","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"connect-merchant-service.master","stageName":"prod-2","actionName":"dev.canary.production.stage3","timeStamp":1735543367},"deploymentStrategy":"canary","canaryShare":10,"failureDetails":{"external-execution-summary":"Rejected from Slack by devata.bhaskar@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:Changes already went in hotfix relase","external-execution-url":"","external-execution-id":"f08f0bf1-2348-4a36-bda2-250a2ee8bf1e"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "5e4e00f7-02cb-3d8f-bf9f-a2554bc7f55b"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38696513987209160085581276541701240806334141613068779520",
+          "_score" : 18.57473,
+          "_source" : {
+            "version" : "0",
+            "id" : "271d0043-800c-a7c1-7391-bb7aea61d25a",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-26T11:15:00Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "apekshit_samay_seva",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "apekshit-samay-seva",
+                "id" : "1.0.00-1999-20241226153540",
+                "commitSHA" : "5234bbc90552ae59c8bdc4d1439615d1b86c7c53",
+                "timestamp" : "1735207544",
+                "user" : "ojas.gupta@swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "1.0.00-1999",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "serviceability",
+                "org" : "mfp",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735207545.339669",
+                    "channel" : "deploy-serviceability"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123583",
+                "isMultimodule" : "false",
+                "Language" : "JAVA",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "apekshit-samay-seva.master",
+                "stageName" : "production",
+                "actionName" : "dev.canary.production.stage3",
+                "timeStamp" : 1735211688
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 10,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by ojas.gupta@swiggy.in|ReasonForRejection:Upstream/Downstream issue |AdditionalComments:Need to modify the filter policy, getting extra messages than required. No Impact on BAU Orders",
+                "external-execution-url" : "",
+                "external-execution-id" : "e5dbbb99-eb35-420d-852d-496b3c01f7ea"
+              }
+            },
+            "@id" : "38696513987209160085581276541701240806334141613068779520",
+            "@timestamp" : "2024-12-26T11:15:00.000Z",
+            "@message" : """{"version":"0","id":"271d0043-800c-a7c1-7391-bb7aea61d25a","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-26T11:15:00Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"apekshit_samay_seva","branch":"master","pciEnabled":false,"service":"apekshit-samay-seva","id":"1.0.00-1999-20241226153540","commitSHA":"5234bbc90552ae59c8bdc4d1439615d1b86c7c53","timestamp":"1735207544","user":"ojas.gupta@swiggy.in","appFile":"app.yaml","imageVersion":"1.0.00-1999","noCode":false,"previousVersion":"","pod":"serviceability","org":"mfp","computeType":"Container","notification":{"slack":{"timestamp":"1735207545.339669","channel":"deploy-serviceability"}},"repoSource":"github","cmrId":"CMR-123583","isMultimodule":"false","Language":"JAVA","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"apekshit-samay-seva.master","stageName":"production","actionName":"dev.canary.production.stage3","timeStamp":1735211688},"deploymentStrategy":"canary","canaryShare":10,"failureDetails":{"external-execution-summary":"Rejected from Slack by ojas.gupta@swiggy.in|ReasonForRejection:Upstream/Downstream issue |AdditionalComments:Need to modify the filter policy, getting extra messages than required. No Impact on BAU Orders","external-execution-url":"","external-execution-id":"e5dbbb99-eb35-420d-852d-496b3c01f7ea"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "c931d5af-76f7-33d5-8932-8dbb39721ce2"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38690764921999214486526946400730746589309244241205067776",
+          "_score" : 18.507896,
+          "_source" : {
+            "version" : "0",
+            "id" : "d1626159-90d2-eab3-b3d7-b3938ea3692f",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-23T11:38:23Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "foundation-gateway",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "foundation-gateway-service",
+                "id" : "1.0.00-8103-20241223162713",
+                "commitSHA" : "df8781af62b3641bb955c5ca7954203162496bc2",
+                "timestamp" : "1734951436",
+                "user" : "soumyadip.ghosh@swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "1.0.00-8103",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "sf-foundations",
+                "org" : "storefront",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1734951436.883019",
+                    "channel" : "deploy-sf-foundations"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123349",
+                "isMultimodule" : "false",
+                "Language" : "GOLANG",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "foundation-gateway-service.master",
+                "stageName" : "production",
+                "actionName" : "dev.canary.production.stage2",
+                "timeStamp" : 1734953893
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 1,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by soumyadip.ghosh@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:canary testing",
+                "external-execution-url" : "",
+                "external-execution-id" : "551aa680-8916-46a2-9d8a-92e0e9eb21c8"
+              }
+            },
+            "@id" : "38690764921999214486526946400730746589309244241205067776",
+            "@timestamp" : "2024-12-23T11:38:23.000Z",
+            "@message" : """{"version":"0","id":"d1626159-90d2-eab3-b3d7-b3938ea3692f","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-23T11:38:23Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"foundation-gateway","branch":"master","pciEnabled":false,"service":"foundation-gateway-service","id":"1.0.00-8103-20241223162713","commitSHA":"df8781af62b3641bb955c5ca7954203162496bc2","timestamp":"1734951436","user":"soumyadip.ghosh@swiggy.in","appFile":"app.yaml","imageVersion":"1.0.00-8103","noCode":false,"previousVersion":"","pod":"sf-foundations","org":"storefront","computeType":"Container","notification":{"slack":{"timestamp":"1734951436.883019","channel":"deploy-sf-foundations"}},"repoSource":"github","cmrId":"CMR-123349","isMultimodule":"false","Language":"GOLANG","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"foundation-gateway-service.master","stageName":"production","actionName":"dev.canary.production.stage2","timeStamp":1734953893},"deploymentStrategy":"canary","canaryShare":1,"failureDetails":{"external-execution-summary":"Rejected from Slack by soumyadip.ghosh@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:canary testing","external-execution-url":"","external-execution-id":"551aa680-8916-46a2-9d8a-92e0e9eb21c8"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "09a01a87-bccf-3581-9a0f-ef326728daab"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38695934591548157061461404893330481413358572675496804352",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "1c3a8830-68eb-d3b3-c22d-6eee561a5e82",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-26T04:01:59Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "offer-builder",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "offer-builder",
+                "id" : "0.1.00-6653-20241225223132",
+                "commitSHA" : "e5d8dcb9a0629934968d9698cf59bc96ee8326a9",
+                "timestamp" : "1735146096",
+                "user" : "shivam.rustagi@swiggy.in",
+                "appFile" : "cmd/offer-builder/app.yaml",
+                "imageVersion" : "0.1.00-6653",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "promotion",
+                "org" : "food-bl",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735146097.005619",
+                    "channel" : "deploy-promotion"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123536",
+                "isMultimodule" : "true",
+                "Language" : "GOLANG",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "offer-builder.master",
+                "stageName" : "deploy-production",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735185708
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by shivam.rustagi@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:we had changed dax time scaling but that step didn't occur in the pipeline",
+                "external-execution-url" : "",
+                "external-execution-id" : "fb3d5b14-47b5-4c71-86c7-715300c64aac"
+              }
+            },
+            "@id" : "38695934591548157061461404893330481413358572675496804352",
+            "@timestamp" : "2024-12-26T04:01:59.000Z",
+            "@message" : """{"version":"0","id":"1c3a8830-68eb-d3b3-c22d-6eee561a5e82","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-26T04:01:59Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"offer-builder","branch":"master","pciEnabled":false,"service":"offer-builder","id":"0.1.00-6653-20241225223132","commitSHA":"e5d8dcb9a0629934968d9698cf59bc96ee8326a9","timestamp":"1735146096","user":"shivam.rustagi@swiggy.in","appFile":"cmd/offer-builder/app.yaml","imageVersion":"0.1.00-6653","noCode":false,"previousVersion":"","pod":"promotion","org":"food-bl","computeType":"Container","notification":{"slack":{"timestamp":"1735146097.005619","channel":"deploy-promotion"}},"repoSource":"github","cmrId":"CMR-123536","isMultimodule":"true","Language":"GOLANG","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"offer-builder.master","stageName":"deploy-production","actionName":"dev.canary.production.stage1","timeStamp":1735185708},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by shivam.rustagi@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:we had changed dax time scaling but that step didn't occur in the pipeline","external-execution-url":"","external-execution-id":"fb3d5b14-47b5-4c71-86c7-715300c64aac"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "1fefc9ad-5513-3de1-ab94-aff2dcc58780"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38697934678482777677459208232488554825775490038773579776",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "302496ad-0180-b94d-4ae7-c67b0f567f6f",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-27T04:56:46Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "dineout-partner-service",
+                "branch" : "hotfix/CPR-17763-order-history",
+                "pciEnabled" : false,
+                "service" : "dineout-partner-service",
+                "id" : "1.0.00-4220-20241227080502",
+                "commitSHA" : "008683b67879373ae0ce4dba74cb67641a383189",
+                "timestamp" : "1735266906",
+                "user" : "vaibhav.mittal@swiggy.in",
+                "appFile" : "cmd/dineout-partner-service/app.yaml",
+                "imageVersion" : "1.0.00-4220",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "partner-experience",
+                "org" : "dineout",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735266907.447919",
+                    "channel" : "deploy-partner-experience"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "true",
+                "Language" : "GOLANG",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "hotfix",
+              "eventDetails" : {
+                "pipelineName" : "dineout-partner-service.hotfix-CPR-17763-order-history.hotfix.production",
+                "stageName" : "hotfix-deployment",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735275394
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by vaibhav.mittal@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:added logs which helped in identifying the gap but not the reason yet.",
+                "external-execution-url" : "",
+                "external-execution-id" : "e21ae488-23f6-4daf-8720-1f1c65edbaab"
+              }
+            },
+            "@id" : "38697934678482777677459208232488554825775490038773579776",
+            "@timestamp" : "2024-12-27T04:56:46.000Z",
+            "@message" : """{"version":"0","id":"302496ad-0180-b94d-4ae7-c67b0f567f6f","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-27T04:56:46Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"dineout-partner-service","branch":"hotfix/CPR-17763-order-history","pciEnabled":false,"service":"dineout-partner-service","id":"1.0.00-4220-20241227080502","commitSHA":"008683b67879373ae0ce4dba74cb67641a383189","timestamp":"1735266906","user":"vaibhav.mittal@swiggy.in","appFile":"cmd/dineout-partner-service/app.yaml","imageVersion":"1.0.00-4220","noCode":false,"previousVersion":"","pod":"partner-experience","org":"dineout","computeType":"Container","notification":{"slack":{"timestamp":"1735266907.447919","channel":"deploy-partner-experience"}},"repoSource":"github","cmrId":"","isMultimodule":"true","Language":"GOLANG","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"hotfix","eventDetails":{"pipelineName":"dineout-partner-service.hotfix-CPR-17763-order-history.hotfix.production","stageName":"hotfix-deployment","actionName":"dev.canary.production.stage1","timeStamp":1735275394},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by vaibhav.mittal@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:added logs which helped in identifying the gap but not the reason yet.","external-execution-url":"","external-execution-id":"e21ae488-23f6-4daf-8720-1f1c65edbaab"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "c50bb37a-5e62-3ab3-88dd-11880b122aac"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38692654865553299559777047724042031741389321196848873472",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "464d8c1b-2789-6d27-b572-fa2f1af0ad6d",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-24T11:10:51Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "connect-backend-monorepo",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "connect-consumer-service",
+                "id" : "1.0.00-59465-20241224114210",
+                "commitSHA" : "87c6481e1a73cd7bb79c987958c2907cc717efed",
+                "timestamp" : "1735020742",
+                "user" : "pranav.santosh@swiggy.in",
+                "appFile" : "shuttle/consumer-service.yaml",
+                "imageVersion" : "1.0.00-59465",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "connect",
+                "org" : "rng",
+                "computeType" : "container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735020743.375979",
+                    "channel" : "deploy-connect"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123407",
+                "isMultimodule" : "true",
+                "Language" : "UNKNOWN",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "connect-consumer-service.master",
+                "stageName" : "prod",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735038646
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by pranav.santosh@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:Update is failing",
+                "external-execution-url" : "",
+                "external-execution-id" : "ac2c384c-ac94-4f09-84e3-2a143930fd12"
+              }
+            },
+            "@id" : "38692654865553299559777047724042031741389321196848873472",
+            "@timestamp" : "2024-12-24T11:10:51.000Z",
+            "@message" : """{"version":"0","id":"464d8c1b-2789-6d27-b572-fa2f1af0ad6d","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-24T11:10:51Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"connect-backend-monorepo","branch":"master","pciEnabled":false,"service":"connect-consumer-service","id":"1.0.00-59465-20241224114210","commitSHA":"87c6481e1a73cd7bb79c987958c2907cc717efed","timestamp":"1735020742","user":"pranav.santosh@swiggy.in","appFile":"shuttle/consumer-service.yaml","imageVersion":"1.0.00-59465","noCode":false,"previousVersion":"","pod":"connect","org":"rng","computeType":"container","notification":{"slack":{"timestamp":"1735020743.375979","channel":"deploy-connect"}},"repoSource":"github","cmrId":"CMR-123407","isMultimodule":"true","Language":"UNKNOWN","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"connect-consumer-service.master","stageName":"prod","actionName":"dev.canary.production.stage1","timeStamp":1735038646},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by pranav.santosh@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:Update is failing","external-execution-url":"","external-execution-id":"ac2c384c-ac94-4f09-84e3-2a143930fd12"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "c6a3c3e7-29bf-37f1-8905-bbddc1460787"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38692654531042121581817700583348456382400729641785622528",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "883d7e20-51cc-e782-4d29-b63c7cf8a0d5",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-24T11:10:36Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "connect-backend-monorepo",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "connect-merchant-service",
+                "id" : "1.0.00-59466-20241224114150",
+                "commitSHA" : "87c6481e1a73cd7bb79c987958c2907cc717efed",
+                "timestamp" : "1735020712",
+                "user" : "pranav.santosh@swiggy.in",
+                "appFile" : "shuttle/merchant-service.yaml",
+                "imageVersion" : "1.0.00-59466",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "connect",
+                "org" : "rng",
+                "computeType" : "container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735020713.722549",
+                    "channel" : "deploy-connect"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123407",
+                "isMultimodule" : "true",
+                "Language" : "UNKNOWN",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "connect-merchant-service.master",
+                "stageName" : "prod-2",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735038632
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by pranav.santosh@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:Update is failing",
+                "external-execution-url" : "",
+                "external-execution-id" : "e191ed36-9252-41ee-a9cf-deb195eb802c"
+              }
+            },
+            "@id" : "38692654531042121581817700583348456382400729641785622528",
+            "@timestamp" : "2024-12-24T11:10:36.000Z",
+            "@message" : """{"version":"0","id":"883d7e20-51cc-e782-4d29-b63c7cf8a0d5","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-24T11:10:36Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"connect-backend-monorepo","branch":"master","pciEnabled":false,"service":"connect-merchant-service","id":"1.0.00-59466-20241224114150","commitSHA":"87c6481e1a73cd7bb79c987958c2907cc717efed","timestamp":"1735020712","user":"pranav.santosh@swiggy.in","appFile":"shuttle/merchant-service.yaml","imageVersion":"1.0.00-59466","noCode":false,"previousVersion":"","pod":"connect","org":"rng","computeType":"container","notification":{"slack":{"timestamp":"1735020713.722549","channel":"deploy-connect"}},"repoSource":"github","cmrId":"CMR-123407","isMultimodule":"true","Language":"UNKNOWN","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"connect-merchant-service.master","stageName":"prod-2","actionName":"dev.canary.production.stage1","timeStamp":1735038632},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by pranav.santosh@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:Update is failing","external-execution-url":"","external-execution-id":"e191ed36-9252-41ee-a9cf-deb195eb802c"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "144d6d26-0279-3d74-972d-062e3a0be4a4"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38698183822408135661580958975800108203069440414569005056",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "33b81460-e0f4-3440-ba90-938e94ebbb4e",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-27T08:02:58Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "connect-backend-monorepo",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "connect-consumer-service",
+                "id" : "1.0.00-59599-20241226234555",
+                "commitSHA" : "6d8fc69191963700e2cc77b0871f3a1929000bc2",
+                "timestamp" : "1735236966",
+                "user" : "devata.bhaskar@swiggy.in",
+                "appFile" : "shuttle/consumer-service.yaml",
+                "imageVersion" : "1.0.00-59599",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "connect",
+                "org" : "rng",
+                "computeType" : "container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735236967.451419",
+                    "channel" : "deploy-connect"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123649",
+                "isMultimodule" : "true",
+                "Language" : "UNKNOWN",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "connect-consumer-service.master",
+                "stageName" : "prod",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735286570
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by devata.bhaskar@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:edge case failed",
+                "external-execution-url" : "",
+                "external-execution-id" : "81c8e9b4-84f3-42fc-8eda-c4131dc41e30"
+              }
+            },
+            "@id" : "38698183822408135661580958975800108203069440414569005056",
+            "@timestamp" : "2024-12-27T08:02:58.000Z",
+            "@message" : """{"version":"0","id":"33b81460-e0f4-3440-ba90-938e94ebbb4e","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-27T08:02:58Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"connect-backend-monorepo","branch":"master","pciEnabled":false,"service":"connect-consumer-service","id":"1.0.00-59599-20241226234555","commitSHA":"6d8fc69191963700e2cc77b0871f3a1929000bc2","timestamp":"1735236966","user":"devata.bhaskar@swiggy.in","appFile":"shuttle/consumer-service.yaml","imageVersion":"1.0.00-59599","noCode":false,"previousVersion":"","pod":"connect","org":"rng","computeType":"container","notification":{"slack":{"timestamp":"1735236967.451419","channel":"deploy-connect"}},"repoSource":"github","cmrId":"CMR-123649","isMultimodule":"true","Language":"UNKNOWN","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"connect-consumer-service.master","stageName":"prod","actionName":"dev.canary.production.stage1","timeStamp":1735286570},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by devata.bhaskar@swiggy.in|ReasonForRejection:Functional bug - Edge case is failing |AdditionalComments:edge case failed","external-execution-url":"","external-execution-id":"81c8e9b4-84f3-42fc-8eda-c4131dc41e30"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "8bec3b63-42b6-36b9-8872-5b971b317202"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38693264924738950563503740647343913532438603390674141184",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "67abba9a-7286-ddf7-c6ad-67676f6cb5ce",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-24T18:46:47Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "ads-sos",
+                "branch" : "hotfix/debug-true-serving",
+                "pciEnabled" : false,
+                "service" : "ads-serving",
+                "id" : "0.0.00-27687-20241224232331",
+                "commitSHA" : "a2056877c1ba779c1e30ce9e70e5665d9b0c303c",
+                "timestamp" : "1735062815",
+                "user" : "amartya.1@swiggy.in",
+                "appFile" : "ads-serving/app.yaml",
+                "imageVersion" : "0.0.00-27687",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "ads",
+                "org" : "axis",
+                "computeType" : "Container",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735062816.474459",
+                    "channel" : "deploy-ads"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "",
+                "isMultimodule" : "true",
+                "Language" : "GOLANG",
+                "Protocol" : "grpc"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "hotfix",
+              "eventDetails" : {
+                "pipelineName" : "ads-serving.hotfix-debug-true-serving.hotfix.production",
+                "stageName" : "hotfix-deployment",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735066003
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by amartya.1@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:logs",
+                "external-execution-url" : "",
+                "external-execution-id" : "2dcf8d73-22ec-4786-87bc-86e55515c4a7"
+              }
+            },
+            "@id" : "38693264924738950563503740647343913532438603390674141184",
+            "@timestamp" : "2024-12-24T18:46:47.000Z",
+            "@message" : """{"version":"0","id":"67abba9a-7286-ddf7-c6ad-67676f6cb5ce","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-24T18:46:47Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"ads-sos","branch":"hotfix/debug-true-serving","pciEnabled":false,"service":"ads-serving","id":"0.0.00-27687-20241224232331","commitSHA":"a2056877c1ba779c1e30ce9e70e5665d9b0c303c","timestamp":"1735062815","user":"amartya.1@swiggy.in","appFile":"ads-serving/app.yaml","imageVersion":"0.0.00-27687","noCode":false,"previousVersion":"","pod":"ads","org":"axis","computeType":"Container","notification":{"slack":{"timestamp":"1735062816.474459","channel":"deploy-ads"}},"repoSource":"github","cmrId":"","isMultimodule":"true","Language":"GOLANG","Protocol":"grpc"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"hotfix","eventDetails":{"pipelineName":"ads-serving.hotfix-debug-true-serving.hotfix.production","stageName":"hotfix-deployment","actionName":"dev.canary.production.stage1","timeStamp":1735066003},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by amartya.1@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:logs","external-execution-url":"","external-execution-id":"2dcf8d73-22ec-4786-87bc-86e55515c4a7"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "699f69af-5a1d-377b-ab35-a2a91d3ae02b"
+          }
+        },
+        {
+          "_index" : "cwl-2024.12",
+          "_type" : "/aws/events/shuttle-all-events",
+          "_id" : "38698366420909821230323251768451251002433502362797473792",
+          "_score" : 18.348846,
+          "_source" : {
+            "version" : "0",
+            "id" : "44277ad1-17e4-788a-7748-57ffee1dc692",
+            "detail-type" : "shuttle",
+            "source" : "shuttle",
+            "account" : "157529275398",
+            "time" : "2024-12-27T10:19:26Z",
+            "region" : "ap-south-1",
+            "resources" : [ ],
+            "detail" : {
+              "context" : {
+                "repo" : "helpcenter",
+                "branch" : "master",
+                "pciEnabled" : false,
+                "service" : "helpcenter",
+                "id" : "1.5.00-3568-20241226143214",
+                "commitSHA" : "ef586965789f477e508f6b78073132141cb4399e",
+                "timestamp" : "1735203741",
+                "user" : "amit.shekhar@swiggy.in",
+                "appFile" : "app.yaml",
+                "imageVersion" : "1.5.00-3568",
+                "noCode" : false,
+                "previousVersion" : "",
+                "pod" : "crm",
+                "org" : "mfp",
+                "computeType" : "VM",
+                "notification" : {
+                  "slack" : {
+                    "timestamp" : "1735203741.454929",
+                    "channel" : "deploy-crm"
+                  }
+                },
+                "repoSource" : "github",
+                "cmrId" : "CMR-123310",
+                "isMultimodule" : "false",
+                "Language" : "JAVA",
+                "Protocol" : "http"
+              },
+              "environment" : "production",
+              "location" : "singapore",
+              "action" : "pipeline",
+              "status" : "failed",
+              "deploymentType" : "rolling",
+              "eventDetails" : {
+                "pipelineName" : "helpcenter.master",
+                "stageName" : "production",
+                "actionName" : "dev.canary.production.stage1",
+                "timeStamp" : 1735294759
+              },
+              "deploymentStrategy" : "canary",
+              "canaryShare" : 0,
+              "failureDetails" : {
+                "external-execution-summary" : "Rejected from Slack by amit.shekhar@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:rejecting",
+                "external-execution-url" : "",
+                "external-execution-id" : "473bab2a-5c18-4896-98c9-37b933b2aa99"
+              }
+            },
+            "@id" : "38698366420909821230323251768451251002433502362797473792",
+            "@timestamp" : "2024-12-27T10:19:26.000Z",
+            "@message" : """{"version":"0","id":"44277ad1-17e4-788a-7748-57ffee1dc692","detail-type":"shuttle","source":"shuttle","account":"157529275398","time":"2024-12-27T10:19:26Z","region":"ap-south-1","resources":[],"detail":{"context":{"repo":"helpcenter","branch":"master","pciEnabled":false,"service":"helpcenter","id":"1.5.00-3568-20241226143214","commitSHA":"ef586965789f477e508f6b78073132141cb4399e","timestamp":"1735203741","user":"amit.shekhar@swiggy.in","appFile":"app.yaml","imageVersion":"1.5.00-3568","noCode":false,"previousVersion":"","pod":"crm","org":"mfp","computeType":"VM","notification":{"slack":{"timestamp":"1735203741.454929","channel":"deploy-crm"}},"repoSource":"github","cmrId":"CMR-123310","isMultimodule":"false","Language":"JAVA","Protocol":"http"},"environment":"production","location":"singapore","action":"pipeline","status":"failed","deploymentType":"rolling","eventDetails":{"pipelineName":"helpcenter.master","stageName":"production","actionName":"dev.canary.production.stage1","timeStamp":1735294759},"deploymentStrategy":"canary","canaryShare":0,"failureDetails":{"external-execution-summary":"Rejected from Slack by amit.shekhar@swiggy.in|ReasonForRejection:Canary deployed for testing the changes on Production |AdditionalComments:rejecting","external-execution-url":"","external-execution-id":"473bab2a-5c18-4896-98c9-37b933b2aa99"}}}""",
+            "@owner" : "157529275398",
+            "@log_group" : "/aws/events/shuttle-all-events",
+            "@log_stream" : "daf2faed-f82b-3796-9f48-0f3e8acecef9"
+          }
+        }
+      ]
+    }
+  }
+  
