@@ -11,7 +11,7 @@ try:
    
     es = Elasticsearch(
         "https://localhost:9200",           
-        basic_auth=("elastic", "6_s2=t8ua7kytpji97k8"),  
+        basic_auth=("elastic", "6_s2=t8kytgygh"),  
         verify_certs=False                     
     )
 
@@ -34,7 +34,7 @@ try:
    
     
     spreadsheet = client.create("Elasticsearch Data Sheet")
-    spreadsheet.share('atmajit.sahoo_int@external.swiggy.in', perm_type='user', role='writer')
+    spreadsheet.share('atmajit.sahoo_int@exterl.swiggy.in', perm_type='user', role='writer')
     worksheet = spreadsheet.sheet1
 
     headers = ["ID", "Title", "Description"]  
