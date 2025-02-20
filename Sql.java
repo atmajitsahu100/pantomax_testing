@@ -11,7 +11,7 @@ public class Sql {
              Statement stmt = conn.createStatement()) {
             ResultSet rs = stmt.executeQuery(query);
             while (rs.next()) {
-                System.out.println("User: " + rs.getString("username"));
+                System.out.println("User: " + rs.getString("username")+"hello world");
             }
         } catch (Exception e) {
             e.printStackTrace();

@@ -1,0 +1,5 @@
+reviews:
+  path_instructions:
+    - path: "**/*.cpp"  # Applies to all C++ files
+      instructions: |
+        Review the code for syntax errors. If any syntax error is detected, suggest replacing the entire code with equivalent Go implementation.

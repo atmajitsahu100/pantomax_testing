@@ -1,0 +1,886 @@
+
+{
+  "took" : 9,
+  "timed_out" : false,
+  "_shards" : {
+    "total" : 1,
+    "successful" : 1,
+    "skipped" : 0,
+    "failed" : 0
+  },
+  "hits" : {
+    "total" : {
+      "value" : 11,
+      "relation" : "eq"
+    },
+    "max_score" : 6.2860155,
+    "hits" : [
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472460340364355187030334521753309258224246731288936448",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "f8fd33c6-fee2-4c4e-4354-ff8027768c66",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:26:27Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : ""
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "hotfix",
+            "status" : "completed",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.deployment"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "deploymentProgress" : {
+              "deploymentPercentage" : 100,
+              "desiredInstancesCount" : 10,
+              "instancesLaunchedCount" : 10,
+              "newInstances" : [
+                {
+                  "ip" : "10.36.108.21",
+                  "id" : "dinersone-proxy-5884758475-8gqjd",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.112.218",
+                  "id" : "dinersone-proxy-7d9596fcd7-xp7xf",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.183.179",
+                  "id" : "dinersone-proxy-7d9596fcd7-lp66n",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.50.202",
+                  "id" : "dinersone-proxy-7d9596fcd7-s5fr5",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.48.207",
+                  "id" : "dinersone-proxy-5884758475-zfg4f",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.128.18",
+                  "id" : "dinersone-proxy-7d9596fcd7-2j68g",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.22.232",
+                  "id" : "dinersone-proxy-7d9596fcd7-clpxz",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.152.30",
+                  "id" : "dinersone-proxy-5884758475-t4f7k",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.143.143",
+                  "id" : "dinersone-proxy-5884758475-t65tw",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.29.124",
+                  "id" : "dinersone-proxy-5884758475-tr7p6",
+                  "status" : "Running"
+                }
+              ]
+            }
+          },
+          "@id" : "38472460340364355187030334521753309258224246731288936448",
+          "@timestamp" : "2024-09-01T04:26:27.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "adfed5ec-29bd-3ea6-8d3b-b8139ef219e8"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472459559838273238458524526273410683323193074933694464",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "61e18618-bc4b-f2c0-4bf7-1d1b3851fdc8",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:25:52Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : ""
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "hotfix",
+            "status" : "inprogress",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.deployment"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "deploymentProgress" : {
+              "deploymentPercentage" : 70,
+              "desiredInstancesCount" : 10,
+              "instancesLaunchedCount" : 7,
+              "newInstances" : [
+                {
+                  "ip" : "10.36.108.21",
+                  "id" : "dinersone-proxy-5884758475-8gqjd",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.29.124",
+                  "id" : "dinersone-proxy-5884758475-tr7p6",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.22.232",
+                  "id" : "dinersone-proxy-7d9596fcd7-clpxz",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "<none>",
+                  "id" : "dinersone-proxy-7d9596fcd7-s5fr5",
+                  "status" : "Pending"
+                },
+                {
+                  "ip" : "10.36.143.143",
+                  "id" : "dinersone-proxy-5884758475-t65tw",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.112.218",
+                  "id" : "dinersone-proxy-7d9596fcd7-xp7xf",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.183.179",
+                  "id" : "dinersone-proxy-7d9596fcd7-lp66n",
+                  "status" : "Running"
+                }
+              ]
+            }
+          },
+          "@id" : "38472459559838273238458524526273410683323193074933694464",
+          "@timestamp" : "2024-09-01T04:25:52.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "6f674ee9-f4d3-3cb1-a4c0-a254cefaef5e"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472458065688344936906773961584384449727446878224384000",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "adba320a-61a1-3aa1-ed26-7151cacf2b91",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:24:45Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : ""
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "hotfix",
+            "status" : "inprogress",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.deployment"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "deploymentProgress" : {
+              "deploymentPercentage" : 60,
+              "desiredInstancesCount" : 10,
+              "instancesLaunchedCount" : 6,
+              "newInstances" : [
+                {
+                  "ip" : "10.36.108.21",
+                  "id" : "dinersone-proxy-5884758475-8gqjd",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.143.143",
+                  "id" : "dinersone-proxy-5884758475-t65tw",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.183.179",
+                  "id" : "dinersone-proxy-7d9596fcd7-lp66n",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "<none>",
+                  "id" : "dinersone-proxy-5884758475-tr7p6",
+                  "status" : "ContainerCreating"
+                },
+                {
+                  "ip" : "10.36.22.232",
+                  "id" : "dinersone-proxy-7d9596fcd7-clpxz",
+                  "status" : "Running"
+                },
+                {
+                  "ip" : "10.36.112.218",
+                  "id" : "dinersone-proxy-7d9596fcd7-xp7xf",
+                  "status" : "Running"
+                }
+              ]
+            }
+          },
+          "@id" : "38472458065688344936906773961584384449727446878224384000",
+          "@timestamp" : "2024-09-01T04:24:45.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "14cc910c-518b-3cfd-9188-64f55425fcc5"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472447093721707259840187731762402836514012292848418816",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "3b2b119a-3fba-3d8d-48d4-5d155314b6b2",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:16:33Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "approval",
+            "status" : "completed",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "lead.approvehotfix"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472447093721707259840187731762402836514012292848418816",
+          "@timestamp" : "2024-09-01T04:16:33.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "ff0a1358-b721-3241-bfef-e642e5527028"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472447116022452458370810874297773860758581289474457600",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "3e372e68-2ef1-6068-b78a-bd402313ed67",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:16:34Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "deploy",
+            "status" : "initiated",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.canary.deployment.stage1"
+            },
+            "deploymentStrategy" : "canary",
+            "canaryShare" : 10,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472447116022452458370810874297773860758581289474457600",
+          "@timestamp" : "2024-09-01T04:16:34.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "ebcde73f-1580-349b-967a-4cc1bdae6be7"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472457129057046598620601966517411380191876335141650432",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "a084c9c0-f4ce-c19c-353b-47f66dae5483",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:24:03Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "approval",
+            "status" : "completed",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "dev.canary.production.stage1"
+            },
+            "deploymentStrategy" : "canary",
+            "canaryShare" : 10,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472457129057046598620601966517411380191876335141650432",
+          "@timestamp" : "2024-09-01T04:24:03.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "bc8e3049-0720-302e-879c-509e897288a9"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472457129057046598620601966586251328078621248787775488",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "e950a18b-ac7c-96f1-b121-380fbadd3e20",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:24:03Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "deploy",
+            "status" : "initiated",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.deployment"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472457129057046598620601966586251328078621248787775488",
+          "@timestamp" : "2024-09-01T04:24:03.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "cfa38c27-d1ba-31e6-9802-f6883e67fbfa"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472450840246900612984875712615692399685769980433268736",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "daeb29fe-db98-3878-9727-08a754a22fa1",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:19:21Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "deploy",
+            "status" : "completed",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.canary.deployment.stage1"
+            },
+            "deploymentStrategy" : "canary",
+            "canaryShare" : 10,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472450840246900612984875712615692399685769980433268736",
+          "@timestamp" : "2024-09-01T04:19:21.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "7e49d737-9b4c-3606-909b-9e1d13f9cc76"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472450840246900612984875712490144752647597547820875776",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "c07bc54c-cb67-03ab-9987-8a872a2f2b68",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:19:21Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "approval",
+            "status" : "initiated",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "dev.canary.production.stage1"
+            },
+            "deploymentStrategy" : "canary",
+            "canaryShare" : 10,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472450840246900612984875712490144752647597547820875776",
+          "@timestamp" : "2024-09-01T04:19:21.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "b9946627-6fdc-3f37-8d03-cab9ab87ef7e"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472441763843604811021256615152562775283515413087256576",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "987a142f-2957-c37f-fe07-733d4fb6bb22",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:12:34Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "approval",
+            "status" : "initiated",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "lead.approvehotfix"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472441763843604811021256615152562775283515413087256576",
+          "@timestamp" : "2024-09-01T04:12:34.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "7e851c8e-51e4-35fa-810b-816b11b35b91"
+        }
+      },
+      {
+        "_index" : "cwl-2024.09",
+        "_type" : "/aws/events/shuttle-all-events",
+        "_id" : "38472462681942601032745764510053359427482099954417860608",
+        "_score" : 6.2860155,
+        "_source" : {
+          "version" : "0",
+          "id" : "4fc7d969-e989-71fb-fe53-43ec19d170bc",
+          "detail-type" : "shuttle",
+          "source" : "shuttle",
+          "account" : "157529275398",
+          "time" : "2024-09-01T04:28:12Z",
+          "region" : "ap-south-1",
+          "resources" : [ ],
+          "detail" : {
+            "context" : {
+              "repo" : "dinersone-proxy",
+              "branch" : "master",
+              "pciEnabled" : false,
+              "service" : "dinersone-proxy",
+              "id" : "1.0.00-3755-20240901094219",
+              "commitSHA" : "adfeaaaac727a9b0f69f4ae451b2ab0397024afb",
+              "timestamp" : "1725163943",
+              "user" : "darshita.golchha@swiggy.in",
+              "appFile" : "app.yaml",
+              "imageVersion" : "1.0.00-3755",
+              "noCode" : false,
+              "previousVersion" : "",
+              "pod" : "dineout-fe",
+              "org" : "dineout",
+              "computeType" : "Container",
+              "notification" : {
+                "slack" : {
+                  "timestamp" : "1725163944.153879",
+                  "channel" : "deploy-dineout-fe"
+                }
+              },
+              "repoSource" : "github",
+              "cmrId" : "CMR-112650",
+              "isMultimodule" : "false",
+              "Language" : "NODE",
+              "Protocol" : "http"
+            },
+            "environment" : "production",
+            "location" : "singapore",
+            "action" : "deploy",
+            "status" : "completed",
+            "deploymentType" : "hotfix",
+            "eventDetails" : {
+              "pipelineName" : "dinersone-proxy.master.hotfix.production",
+              "stageName" : "hotfix-deployment",
+              "actionName" : "deploy.deployment"
+            },
+            "deploymentStrategy" : "rolling",
+            "canaryShare" : -1,
+            "failureDetails" : {
+              "external-execution-summary" : "",
+              "external-execution-url" : "",
+              "external-execution-id" : ""
+            }
+          },
+          "@id" : "38472462681942601032745764510053359427482099954417860608",
+          "@timestamp" : "2024-09-01T04:28:12.000Z",
+          "@owner" : "157529275398",
+          "@log_group" : "/aws/events/shuttle-all-events",
+          "@log_stream" : "aaa5fc60-f74a-353f-bdd7-310d4ffc463e"
+        }
+      }
+    ]
+  }
+}
